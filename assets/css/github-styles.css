@@ -5,6 +5,11 @@ br {
   line-height: 1.6em;
 }
 
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
+}
+
 ol,
 ul {
   list-style: none;
